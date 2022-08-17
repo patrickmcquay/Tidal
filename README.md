@@ -79,7 +79,8 @@ The really only tricky thing to print are the buttons, they should be oriented o
 12. now you can fit the bottom cover. The sensor board should be located by the lens fitting into the bottom cover, and can be held in with some vhb tape. After that you can do up the screws on the bottom.
 13. fit the mouse buttons. These may need some tweaking and can be adjusted by sanding down the mount bosses on the buttons, or the boss that actually presses the switch. Take your time here and get it right, this really affects the feel of the mouse.
 14. fit some mouse feet.
-15. test. Make sure the buttons work and the scroll wheel scrolls the right way. The sensor can also be installed backwards. I've had an issue where when I first power it on, the mouse will lose one step when the scroll wheel changes directions, I'd imagine this is a qmk bug, as I've had it happen the same way on two of these now that had different encoders. I'm not sure what else it could be really.
+15. load the qmk firmware. This can be found here: https://github.com/patrickmcquay/qmk_firmware, under keyboards/pmcquay/tidal. A description on how to use qmk msys can be found here: https://msys.qmk.fm/guide.html. You will have to leave the bottom cover off to short the reset pad to ground with a tool. The tweezers work well for this. No I will not answer questions on how to deal with qmk msys, that is not software I wrote.
+16. test. Make sure the buttons work and the scroll wheel scrolls the right way. The sensor can also be installed backwards. I've had an issue where when I first power it on, the mouse will lose one step when the scroll wheel changes directions, I'd imagine this is a qmk bug, as I've had it happen the same way on two of these now that had different encoders. I'm not sure what else it could be really.
     
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]

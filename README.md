@@ -1,29 +1,31 @@
 # Tidal
 
-What is this?
+**What is this?**
 
 A vertical mouse with a sensor and report rate that doesnt suck.
 
-![image](https://user-images.githubusercontent.com/60482558/184889012-e802225c-90c1-4e23-8474-9f53ecea9dff.png)
+<img src="https://user-images.githubusercontent.com/60482558/184889012-e802225c-90c1-4e23-8474-9f53ecea9dff.png" height="230"> <img src="https://user-images.githubusercontent.com/60482558/185208380-d320a7cb-e078-474e-af08-3384783d78df.png" height="230"> <img src="https://user-images.githubusercontent.com/60482558/185208451-0a71bb99-5001-4fe7-8753-b52eb4c2303a.png" height="230">
 
-Why again?
+(to note, the bottom cover on this example is different than the newest version, the newest version supports more sensor breakout boards)
+
+**Why again?**
 
 I researched several vertical mice, and they all seem to be either geared towards working (they have mediocre sensors, and are limited to 125HZ report rates because they are intended to be used over bluetooth), or are bottom of the barrel "gaming" trash (they have trash tier hardware, and some crappy LEDs tacked on to them). This mouse has a PMW3360 sensor, and a 1000HZ report rate. It can have LEDs, but it doesnt need to to be awesome. It runs QMK, so it is extremely extensible.
 
-Where do I start?
+**Where do I start?**
 
 Download the STLs and print them. They are designed to be printed without supports for the most part. The main body will need support from the build plate, and the buttons will likely need skirts, and some trimming.
 
 The really only tricky thing to print are the buttons, they should be oriented on the build plate with the mousewheel cutout facing upwards. This will lay the button on a relatively thin piece. If you are printing in something other than PLA (I've printed this in PLA, PETG, and ABS) then its advisable to use a skirt, but hey, I'm not a cop, do what you think is right. They should also be printed slowly, and with a little extra fan than usual (I hope you have an enclosure if you print these in ABS). In my experiments, I found that that limited warping.
 
-Whats next?
+**Whats next?**
 
-You need some hardware:
+**You need some hardware:**
 
 1. at least 9 heat set inserts, https://www.aliexpress.com/item/4000232858343.html in M2 X D4.0 X L3.0
 2. at least 9 screws, https://www.aliexpress.com/item/4000282581926.html, in M2 X 8
 
-And some electronics:
+**And some electronics:**
 
 1. Buy a logitech g403, or g703 from ebay, they are cheap, and have the sensor you need (if you have desoldering tools), as well as the scroll wheel module. You can harvest the switches, but I recommend against it. They arent great.
 2. you will need switches, I recommend these: https://www.aliexpress.com/item/4000470902035.html, but you do you. Be sure to get the ones with the bigger mounting holes. M2 hardware needs to fit.
@@ -35,7 +37,7 @@ And some electronics:
 5. RGBLEDS! I used these: https://www.adafruit.com/product/4368, and needed 25 leds out of the string.-
 6. mouse feet. I use feet for a G102 Gpro: https://www.amazon.com/gp/product/B072K1F7C1 You can really use whatever fits. The bottom of the mouse is flat.
     
-And some tools:
+**And some tools:**
 
 1. soldering iron
 2. solder
@@ -44,7 +46,7 @@ And some tools:
 5. 3m vhb tape, thin, in half inch width: https://www.amazon.ca/gp/product/B06Y315PXN
 6. a good set of small screwdrivers
 
-Alright, now, to get started assembling!
+**Alright, now, to get started assembling!**
 
 1. do all of the heatset inserts. There are 9. 3 in the bottom, 4 in the button mounts, and 2 in the switch mounts.
 2. disassemble the mouse you bought. There are youtube guides for this. You will need to keep both small mouse wheel pcbs, the wheel itself, and the cradle that holds the boards and locates the wheel shaft. The shield thing that goes above the wheel can go. Keep all of the screws, you will need them to mount the scroll wheel cradle and pcbs.

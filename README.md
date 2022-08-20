@@ -20,6 +20,8 @@ The really only tricky thing to print are the buttons, they should be oriented o
 
 <img src="https://user-images.githubusercontent.com/60482558/185725709-8130b86a-ec81-4335-8262-8b37a3b8504a.png" height="230">
 
+You will need to be suitably comfortable with soldering thin wire to 0.1" pitch pads, in relatively tight spaces. A clamp big enough to secure the mouse body while working on it is recommended.
+
 **Whats next?**
 
 **You need some hardware:**
@@ -35,7 +37,7 @@ The really only tricky thing to print are the buttons, they should be oriented o
 4. you will need a breakout board for the sensor. Here you have some options
     1. If you are hardcore: desolder the sensor from the mouse you bought, then get one of these and assemble: https://github.com/Ariamelon/Ogen
     2. If you are looking for an easier version of #1: https://www.tindie.com/products/jkicklighter/pmw3360-motion-sensor/
-    3. If you are cheap like me: https://keymouse.com/keymouse-components/keymouse-mouse-sensor-module-3-0t If you go with this one, do be advised that the silkscreen on the board may be reversed. That was annoying to figure out. You also need to desolder the header.
+    3. If you are cheap like me: https://keymouse.com/keymouse-components/keymouse-mouse-sensor-module-3-0t If you go with this one, do be advised that the silkscreen on the board may be reversed, ie: pin 1 is pin 8, pin 2 is pin 7, etc. That was annoying to figure out. You also need to desolder the header, it wont fit.
 5. RGBLEDS! I used these: https://www.adafruit.com/product/4368, and needed 25 leds out of the string.-
 6. mouse feet. I use feet for a G102 Gpro: https://www.amazon.com/gp/product/B072K1F7C1 You can really use whatever fits. The bottom of the mouse is flat.
     
@@ -47,6 +49,7 @@ The really only tricky thing to print are the buttons, they should be oriented o
 4. tweezers, nice fine ones
 5. 3m vhb tape, thin, in half inch width: https://www.amazon.ca/gp/product/B06Y315PXN
 6. a good set of small screwdrivers
+7. a soldering vise or clamp of some sort makes this job way easier, especially soldering the wires to the pro micro while its in the body of the mouse.
 
 **Alright, now, to get started assembling!**
 
@@ -63,7 +66,7 @@ The really only tricky thing to print are the buttons, they should be oriented o
     2. the remaining left click wire goes to pad 3
     3. the remaining right click wire goes to pad 4
     4. the remaining middle click wire goes to pag 5
-    5. the wire from the leftmost pad on the scroll wheel encoder board goes to ground
+    5. the wire from the leftmost pad (or topmost, if the board is mounted in the mouse) on the scroll wheel encoder board goes to ground
     6. the other two wires from the scroll wheel encoder go to pads 6 and 7 on the pro micro. If the scroll wheel scrolls backwards, flip these two wires.
 10. now wire the sensor. (remember the silkscreen might be backwards)
     1. run 3 inch wires off of all of the pads on the sensor except motion (its not needed).

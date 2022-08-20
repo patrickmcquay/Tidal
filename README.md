@@ -2,7 +2,7 @@
 
 **What is this?**
 
-A vertical mouse with a sensor and report rate that doesnt suck.
+A vertical mouse with a sensor and report rate that doesn't suck.
 
 <img src="https://user-images.githubusercontent.com/60482558/184889012-e802225c-90c1-4e23-8474-9f53ecea9dff.png" height="230"> <img src="https://user-images.githubusercontent.com/60482558/185208380-d320a7cb-e078-474e-af08-3384783d78df.png" height="230"> <img src="https://user-images.githubusercontent.com/60482558/185208451-0a71bb99-5001-4fe7-8753-b52eb4c2303a.png" height="230">
 
@@ -77,11 +77,11 @@ You will need to be suitably comfortable with soldering thin wire to 0.1" pitch 
     6. cs to 10
     7. vcc to vcc (this ensures that the sensor is protected by the pro micros protection circuitry.
 11. if you are not mounting LEDs, you are done wiring! You can skip this step!
-    1. solder short wires to all 3 pads on the led strip, and then insert the strip carefully into the channel. Do not peel the backing off of the leds, this will prevent them sliding in. The will stay where they are just fine.
+    1. solder short wires to all 3 pads on the led strip, and then insert the strip carefully into the channel (this is tricky, be careful and go slowly. It is also possible to do this step first and then you dont have to deal with other wires being in the way). Do not peel the backing paper off of the leds, this will prevent them sliding in. The will stay where they are just fine.
     2. gnd to gnd
     3. signal to A3
-    4. vcc to raw (this ensures that the LEDs get enough power, by bypassing the protection of the micro. Heres hoping your PC doesnt do strange things with the 5v USB rail!
-12. now you can fit the bottom cover. The sensor board should be located by the lens fitting into the bottom cover, and can be held in with some vhb tape. After that you can do up the screws on the bottom.
+    4. vcc to raw (this ensures that the LEDs get enough power, by bypassing the protection of the micro. Heres hoping your PC doesnt do strange things with the 5v USB rail!)
+12. now you can fit the bottom cover. The sensor board should be located by the lens fitting into the bottom cover, and can be held in with some vhb tape between the board and the top surface of the bottom cover. After that you can do up the screws on the bottom.
 13. fit the mouse buttons. These may need some tweaking and can be adjusted by sanding down the mount bosses on the buttons, or the boss that actually presses the switch. Take your time here and get it right, this really affects the feel of the mouse.
 14. fit some mouse feet.
 15. load the qmk firmware. This can be found here: https://github.com/patrickmcquay/qmk_firmware, under keyboards/pmcquay/tidal. A description on how to use qmk msys can be found here: https://msys.qmk.fm/guide.html. You will have to leave the bottom cover off to short the reset pad to ground with a tool. The tweezers work well for this. No I will not answer questions on how to deal with qmk msys, that is not software I wrote.

@@ -18,6 +18,8 @@ Download the STLs and print them. They are designed to be printed without suppor
 
 The really only tricky thing to print are the buttons, they should be oriented on the build plate with the mousewheel cutout facing upwards. This will lay the button on a relatively thin piece. If you are printing in something other than PLA (I've printed this in PLA, PETG, and ABS) then its advisable to use a skirt, but hey, I'm not a cop, do what you think is right. They should also be printed slowly, and with a little extra fan than usual (I hope you have an enclosure if you print these in ABS). In my experiments, I found that that limited warping.
 
+<img src="https://user-images.githubusercontent.com/60482558/185725709-8130b86a-ec81-4335-8262-8b37a3b8504a.png" height="230">
+
 **Whats next?**
 
 **You need some hardware:**

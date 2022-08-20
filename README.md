@@ -86,7 +86,9 @@ You will need to be suitably comfortable with soldering thin wire to 0.1" pitch 
 14. fit some mouse feet.
 15. load the qmk firmware. This can be found here: https://github.com/patrickmcquay/qmk_firmware, under keyboards/pmcquay/tidal. A description on how to use qmk msys can be found here: https://msys.qmk.fm/guide.html. You will have to leave the bottom cover off to short the reset pad to ground with a tool. The tweezers work well for this. No I will not answer questions on how to deal with qmk msys, that is not software I wrote.
 16. test. Make sure the buttons work and the scroll wheel scrolls the right way. The sensor can also be installed backwards. I've had an issue where when I first power it on, the mouse will lose one step when the scroll wheel changes directions, I'd imagine this is a qmk bug, as I've had it happen the same way on two of these now that had different encoders. I'm not sure what else it could be really.
-    
+17. optionally, you may want to purchase or make a flexible lightweight usb type c cable. Its not terribly difficult to make them, I used the same 30 guage silicone wire, as well as some paracord sheath, 1/2 inch 4:1 shrink tube, and these: https://www.aliexpress.com/item/1005001899869913.html. Find a pinout for the type A connector and then just join up the pads. If you got this far this will be trivial.
+
+Enjoy, This is by far the most responsive vertical mouse that I've used. Let me know if this document can be improved or if you have any issues.    
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
